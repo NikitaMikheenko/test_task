@@ -15,7 +15,7 @@ namespace TestTask
 
             routes.MapRoute(
                 name: "Default",
-                url: "", 
+                url: "",
                 defaults: new { controller = "Home", action = "Index" }
             );
 
