@@ -18,6 +18,18 @@ namespace TestTask
                 url: "", 
                 defaults: new { controller = "Home", action = "Index" }
             );
+
+            routes.MapRoute(
+                name: "YouTube",
+                url: "youtube",
+                defaults: new { controller = "Home", action = "Index" }
+            );
+
+            routes.MapRoute(
+                name: "Instagram",
+                url: "instagram",
+                defaults: new { controller = "Home", action = "Index" }
+            );
         }
     }
 }
